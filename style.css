@@ -275,28 +275,30 @@ ________________________
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px ) {
-    .media__container{
-        background-color:var(--primary-500)
+    .media__container {
+        background-color: var(--primary-500)
     }
-
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
     @media screen and (min-width: 768px ) {
-        .media__container{
-            background-color:blue;
+        .media__container {
+            background-color: blue;
         }
-
+    }
 
 /* Large devices (laptops/desktops, 992px and up) */
         @media screen and (min-width: 992px ) {
-            .media__container{
-                background-color:green;
+            .media__container {
+                background-color: green;
             }
+        }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
             @media screen and (min-width: 1200px ) {
-                .media__container{
-                    background-color:deeppink;
+                .media__container {
+                    background-color: deeppink;
                 }
+            }
